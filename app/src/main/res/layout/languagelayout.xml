@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LANGUAGE SELECTION"
+        android:textSize="30dp"
+        android:textColor="@color/green"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/la_ll_btn_eng"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="English"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/la_ll_btn_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:layout_marginTop="320dp"/>
+
+
+</LinearLayout>

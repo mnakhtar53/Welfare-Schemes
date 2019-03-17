@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="EDUCATION SCHEMES"/>
+
+    <TextView
+        android:id="@+id/edu_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Vocational Training Centres in Tribal Affairs"/>
+
+    <TextView
+        android:id="@+id/edu_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Establishment of Ashram Schools in Tribal Sub-Plans Areas "/>
+
+     <TextView
+         android:id="@+id/edu_3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dp"
+         android:textSize="20dp"
+         android:textColor="@color/black"
+         android:text="Centrally Sponsored Schemes of hostels for ST boys and ST girls"/>
+
+    <TextView
+        android:id="@+id/edu_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/gray"
+        android:text="Ekalyan Scholarship (not available)"/>
+
+</LinearLayout>

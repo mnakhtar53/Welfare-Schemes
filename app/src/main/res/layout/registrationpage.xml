@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo2"
+    android:orientation="vertical"
+    tools:context=".Registrationpage">
+
+    <Button
+        android:id="@+id/btnNewRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Registration"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btnViewInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view your registered data"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/btnUpdateInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update information by ID"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/btnDeleteReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete registration"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/btnMainPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main page"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_marginTop="120dp"/>
+
+
+
+</LinearLayout>
