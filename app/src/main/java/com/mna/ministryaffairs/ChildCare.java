@@ -53,6 +53,7 @@ public class ChildCare extends AppCompatActivity {
                 Intent intent =new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.india.gov.in/sukanya-samriddhi-yojna"));
                 startActivity(intent);
             }
+            
         });
     }
 }
